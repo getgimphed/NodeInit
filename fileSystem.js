@@ -10,6 +10,5 @@ fs.writeFile('text.txt','Write this to file',function(err){
 });
 
 var ws = fs.createWriteStream('streams.txt');
-
 var rs = require('./streams');
 rs.pipe(ws);
