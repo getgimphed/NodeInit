@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/getgimphed/NodeInit/issues"
   },
-  "homepage": "https://github.com/getgimphed/NodeInit#readme"
+  "homepage": "https://github.com/getgimphed/NodeInit#readme",
+  "scripts": {
+    "start": "node app.js"
+  }
 }
