@@ -1,0 +1,87 @@
+html,body{
+  margin: 0;
+  height: 80%;
+  background-color: #6666ff;
+
+}
+.formParent{
+  text-align: center;
+  margin-left: 0%;
+}
+.head1{
+  font-family: 'Pangolin', cursive;
+}
+.head3{
+  width: 50%;
+  margin-left: 25%;
+}
+.head2{
+  font-family: 'Pangolin', cursive;
+  text-align: left;
+  margin-left: 0%;
+}
+input[type=text]{
+  font-size: 40px;
+  font-family: 'Bahiana', cursive;
+  background-color: black;
+  color: white;
+  height: 60px;
+  border-color: white;
+  border-style: dashed;
+  width: 25%;
+  border-radius: 10px;
+  padding: 5px;
+}
+input[type=submit]{
+  width: 10%;
+  background-color: aliceblue;
+  border-style: solid;
+  font-size: 20px;
+  font-family: 'Sansita', sans-serif;
+  border-width: 2px;
+}
+.result{
+  font-family: 'Pangolin', cursive;
+  font-size: 1.2em;
+  color: white;
+  background-color: black;
+  margin-left: 25%;
+  min-width: 20%;
+  max-width: 50%;
+  border-color: white;
+  border-style: dashed;
+  border-width: 1px;
+  /*min-height: 40px;*/
+  padding: 10px;
+}
+.recentSearch{
+  font-family: 'Pangolin', cursive;
+  min-height: 30%;
+  border-style: dotted;
+  width: 50%;
+  margin-left: 25%;
+}
+table{
+  width: 100%;
+  text-align: center;
+}
+th{
+  font-family: 'Bahiana', cursive;
+  font-size: 2em;
+}
+td{
+  color: white;
+  font-family: 'Pangolin', cursive;
+  padding: 8px;
+  margin: 5px;
+}
+a{
+  text-decoration: underline;
+  color:inherit;
+}
+a:hover{
+  color: black;
+}
+/*font-family: 'Bahiana', cursive;
+font-family: 'Sansita', sans-serif;
+font-family: 'Pangolin', cursive;*/
