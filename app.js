@@ -3,6 +3,7 @@ var app = express();
 var cors = require("cors");
 var bodyParser = require("body-parser");
 var dict = require("./dictionary.json");
+var port = process.env.PORT || 8080;
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extented:false}));
@@ -31,6 +32,6 @@ app.post('/',function(req,res,next){
 app.get('/recentSearch',function(req,res){
   res.json(recentSearch);
 });
-app.listen(8080);
+app.listen(port);
 console.log("'Listening to port 8080 '");
 module.export = app;
