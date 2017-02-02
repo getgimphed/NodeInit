@@ -8,5 +8,5 @@ API :  Uses NodeJS API to do basic server and search from english dictionary jso
 public : This contains static file for Dictionary.
 Dictionary.json : Contains json dictionary forked from adambom/dictionary.
 
-basicAPIs :    This contains Node basic scripts to check basic JS utilities and Node APIs and express.
+basicAPIs :  This contains Node basic scripts to check basic JS utilities and Node APIs and express.
 pageDownloader: This contains script to download a web page using Read/ Write Streams.
