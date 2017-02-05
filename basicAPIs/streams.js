@@ -1,5 +1,5 @@
 var stream = require('stream');
-var rs = new stream.Readable();
+var rs = new stream.Readable(); 
 var i=0;
 rs._read=  function(){
   while(i<=20){
